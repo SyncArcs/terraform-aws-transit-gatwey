@@ -141,7 +141,7 @@ Feel free to modify any sections to better fit your specific use case or add add
 | <a name="input_managedby"></a> [managedby](#input\_managedby) | Managed by label | `string` | `""` | no |
 | <a name="input_multicast_support"></a> [multicast\_support](#input\_multicast\_support) | Whether to enable multicast support | `string` | `"disable"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name for the resources | `string` | `""` | no |
-| <a name="input_repository"></a> [repository](#input\_repository) | Repository for the labels module | `string` | `null` | no |
+| <a name="input_repository"></a> [repository](#input\_repository) | Repository for the labels module | `string` | `"https://github.com/SyncArcs/terraform-aws-transit-gatwey.git"` | no |
 | <a name="input_vpc-1"></a> [vpc-1](#input\_vpc-1) | VPC ID for VPC 1 | `string` | `""` | no |
 | <a name="input_vpc-2"></a> [vpc-2](#input\_vpc-2) | n/a | `string` | `"VPC ID for VPC 2"` | no |
 | <a name="input_vpc-3"></a> [vpc-3](#input\_vpc-3) | n/a | `string` | `"VPC ID for VPC 3"` | no |
