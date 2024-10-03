@@ -53,12 +53,6 @@ variable "default_route_table_propagation" {
   default     = "enable"
 }
 
-variable "vpn_ecmp_support" {
-  description = "Whether to enable VPN ECMP support"
-  type        = string
-  default     = "enable"
-}
-
 variable "dns_support" {
   description = "Whether to enable DNS support"
   type        = string
@@ -91,17 +85,17 @@ variable "vpc3_subnet_ids" {
 
 
 variable "vpc-1" {
-  description = "VPC ID for VPC 1       "
-  type    = string
-  default = ""
+  description = "VPC ID for VPC 1"
+  type        = string
+  default     = ""
 }
 
 variable "vpc-2" {
   type    = string
-  default = "VPC ID for VPC 2       "
+  default = "VPC ID for VPC 2"
 }
 
 variable "vpc-3" {
   type    = string
-  default = "VPC ID for VPC 3       "
+  default = "VPC ID for VPC 3"
 }

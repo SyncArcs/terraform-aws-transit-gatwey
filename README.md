@@ -143,12 +143,11 @@ Feel free to modify any sections to better fit your specific use case or add add
 | <a name="input_name"></a> [name](#input\_name) | Name for the resources | `string` | `""` | no |
 | <a name="input_repository"></a> [repository](#input\_repository) | Repository for the labels module | `string` | `null` | no |
 | <a name="input_vpc-1"></a> [vpc-1](#input\_vpc-1) | VPC ID for VPC 1 | `string` | `""` | no |
-| <a name="input_vpc-2"></a> [vpc-2](#input\_vpc-2) | n/a | `string` | `"VPC ID for VPC 2       "` | no |
-| <a name="input_vpc-3"></a> [vpc-3](#input\_vpc-3) | n/a | `string` | `"VPC ID for VPC 3       "` | no |
+| <a name="input_vpc-2"></a> [vpc-2](#input\_vpc-2) | n/a | `string` | `"VPC ID for VPC 2"` | no |
+| <a name="input_vpc-3"></a> [vpc-3](#input\_vpc-3) | n/a | `string` | `"VPC ID for VPC 3"` | no |
 | <a name="input_vpc1_subnet_ids"></a> [vpc1\_subnet\_ids](#input\_vpc1\_subnet\_ids) | List of subnet IDs for VPC 1 | `list(string)` | <pre>[<br>  "subnet-xxxxxx7",<br>  "subnet-xxxxxx8"<br>]</pre> | no |
 | <a name="input_vpc2_subnet_ids"></a> [vpc2\_subnet\_ids](#input\_vpc2\_subnet\_ids) | List of subnet IDs for VPC 2 | `list(string)` | <pre>[<br>  "subnet-xxxxxx7",<br>  "subnet-xxxxxx8"<br>]</pre> | no |
 | <a name="input_vpc3_subnet_ids"></a> [vpc3\_subnet\_ids](#input\_vpc3\_subnet\_ids) | List of subnet IDs for VPC 3 | `list(string)` | <pre>[<br>  "subnet-xxxxxx7",<br>  "subnet-xxxxxx8"<br>]</pre> | no |
-| <a name="input_vpn_ecmp_support"></a> [vpn\_ecmp\_support](#input\_vpn\_ecmp\_support) | Whether to enable VPN ECMP support | `string` | `"enable"` | no |
 
 ## Outputs
 
