@@ -59,7 +59,7 @@ To use this module, include it in your Terraform configuration as follows:
 
 ```hcl
 module "transit_gateway" {
-  source      = "./path/to/your/module"  # Update with the correct path to the module
+  source      = "https://github.com/SyncArcs/terraform-aws-transit-gatwey.git"  # Update with the correct path to the module
   name        = "MyTransitGateway"
   environment = "dev"
   managedby   = "your-name"

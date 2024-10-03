@@ -25,7 +25,7 @@ variable "label_order" {
 variable "repository" {
   description = "Repository for the labels module"
   type        = string
-  default     = null
+  default     = "https://github.com/SyncArcs/terraform-aws-transit-gatwey.git"
 }
 
 
